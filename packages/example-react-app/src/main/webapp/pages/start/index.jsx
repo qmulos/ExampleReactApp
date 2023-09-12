@@ -1,19 +1,19 @@
 import React from 'react';
 
 import layout from '@splunk/react-page';
-import ExampleReactApp from '@splunk/example-react-app';
 import { getUserTheme, getThemeOptions } from '@splunk/splunk-utils/themes';
 
 import { StyledContainer, StyledGreeting } from './StartStyles';
+import QModal from 'components/common/QModal';
+import Button from '@splunk/react-ui/Button';
+import StartPage from './StartPage';
 
 getUserTheme()
     .then((theme) => {
         const splunkTheme = getThemeOptions(theme);
         layout(
             <StyledContainer>
-                <StyledGreeting>Hello, from inside ExampleReactApp!</StyledGreeting>
-                <div>Your component will appear below.</div>
-                <ExampleReactApp name="from inside ExampleReactApp" />
+                <StartPage />
             </StyledContainer>,
             splunkTheme
         );

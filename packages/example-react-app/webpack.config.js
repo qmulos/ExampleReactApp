@@ -29,5 +29,12 @@ module.exports = webpackMerge(baseConfig, {
             ],
         }),
     ],
+    resolve: {
+        alias: {
+            components: path.resolve(__dirname, 'src/main/webapp/components/'),
+            pages: path.resolve(__dirname, 'src/main/webapp/pages/'),
+            utils: path.resolve(__dirname, 'src/main/webapp/utils/'),
+        },
+    },
     devtool: 'eval-source-map',
 });
