@@ -5,7 +5,7 @@ first, clone this repository to your computer.
 Navigate to the base directory of this repository, your path should look something 
 like this: `some/base/directory/ExampleReactApp`. You should stay here unless otherwise directed.
 
-Now run
+Now run\n
      `yarn install`
   to install the required packages for the app
 
