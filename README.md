@@ -32,7 +32,7 @@ Finally, go back to the base directory (`cd ../..`), and run this final command:
 
     yarn run start
 
-Now you can open Splunk, select ExampleReactApp from the list of apps, and see our app running. 
+Now you can open Splunk, select ExampleReactApp from the list of apps, and see your app running. 
 
 ## Tips and Tricks:
 
@@ -40,4 +40,8 @@ Now you can open Splunk, select ExampleReactApp from the list of apps, and see o
 - If you add a package, make sure you run `yarn install` again in the base directory, otherwise the app will throw errors at you
 - Adding pages (and reload-less navigation) is tricky. If you got that far, first of all congratulations! Reach out to me @jack on Slack and I can help you through it. 
 
-
+## Extra Documentation:
+- Splunk React Components:
+    - https://splunkui.splunk.com/Packages/react-ui/Overview
+- Splunk Search Component:
+    - https://splunkui.splunk.com/Packages/react-search/Overview
