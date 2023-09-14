@@ -1,6 +1,6 @@
 # ReactJS Splunk Example Application
 ### Developed by Jack Consenstein, for the Qmulos Solutions Engineering Team.
-For more info on Qmulos, here is our [website](https://www.qmulos.com/) and [LinkedIn](https://www.linkedin.com/company/qmulos)
+For more info on Qmulos, here is our [website](https://www.qmulos.com/) and [LinkedIn](https://www.linkedin.com/company/qmulos)  
 Questions, comments, concerns: [email me](mailto:jconsenstein@qmulos.com)
 
 
